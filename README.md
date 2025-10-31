@@ -178,13 +178,13 @@ O servidor escolhido para hospedagem foi https://vercel.com
 
 A página principal tem um link para entrar na documentação do Swagger do FastApi
 
-👉 [http://web-scraping-tawny.vercel.app/](http://web-scraping-tawny.vercel.app/)
+👉 [http://web-scraping-khaki.vercel.app/](http://web-scraping-khaki.vercel.app/)
 
 ou 
 
 ☁️ Por este link para a documentação do Swagger do FastApi
 Acesse:  
-👉 [http://web-scraping-tawny.vercel.app/docs](http://web-scraping-tawny.vercel.app/docs)
+👉 [http://web-scraping-khaki.vercel.app/docs](http://web-scraping-khaki.vercel.app/docs)
 
 ---
 
@@ -239,12 +239,12 @@ Cada exemplo inclui uma chamada real com `curl`, o método HTTP, e um exemplo de
 
 Formato dos exemplos, Linux
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/health'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/health'   -H 'accept: application/json'
 ```
 
 Para windows, coloque --ssl-no-revoke como no exemplo abaixo e troque aspas simples por aspas duplas
 ```
-curl.exe --ssl-no-revoke -X "GET"   "https://web-scraping-tawny.vercel.app/api/v1/public/health"   -H "accept: application/json"
+curl.exe --ssl-no-revoke -X "GET"   "https://web-scraping-khaki.vercel.app/api/v1/public/health"   -H "accept: application/json"
 ```
 
 ---
@@ -256,7 +256,7 @@ curl.exe --ssl-no-revoke -X "GET"   "https://web-scraping-tawny.vercel.app/api/v
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -309,7 +309,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books'   -H
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/1'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books/1'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -335,7 +335,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/1'   
 
 **Exemplo de Request (busca por título):**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/search?title=Tipping%20the%20Velvet'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books/search?title=Tipping%20the%20Velvet'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -355,7 +355,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/searc
 
 **Exemplo de Request (busca por categoria):**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/search?category=Philosophy'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books/search?category=Philosophy'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -443,7 +443,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/searc
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/categories'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/categories'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -509,7 +509,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/categories'
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/health'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/health'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -530,7 +530,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/health'   -
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/stats/overview'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/stats/overview'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -555,7 +555,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/stats/overv
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/stats/categories'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/stats/categories'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response (trecho):**
@@ -822,7 +822,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/stats/categ
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/top-rated?limit=4'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books/top-rated?limit=4'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response:**
@@ -877,7 +877,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/top-r
 
 **Exemplo de Request:**
 ```
-curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/price-range?min=7&max=10'   -H 'accept: application/json'
+curl -X 'GET'   'https://web-scraping-khaki.vercel.app/api/v1/public/books/price-range?min=7&max=10'   -H 'accept: application/json'
 ```
 
 **Exemplo de Response (trecho):**
@@ -911,7 +911,7 @@ curl -X 'GET'   'https://web-scraping-tawny.vercel.app/api/v1/public/books/price
 **Exemplo de Request:**
 ```
 curl -X 'POST' \
-  'https://web-scraping-tawny.vercel.app/api/v1/auth/login' \
+  'https://web-scraping-khaki.vercel.app/api/v1/auth/login' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'grant_type=password&username=admin&password=machinelearning&scope=&client_id=string&client_secret=********'
@@ -934,7 +934,7 @@ curl -X 'POST' \
 **Exemplo de Request:**
 ```
 curl -X 'POST' \
-  'https://web-scraping-tawny.vercel.app/api/v1/auth/refresh' \
+  'https://web-scraping-khaki.vercel.app/api/v1/auth/refresh' \
   -H 'accept: application/json' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2MTUyODgzOX0.NaJXZBTdt1MdL-CYLb_HmzDGc29Ug0-jZ8dsPmJiAuw' \
   -d ''
@@ -957,7 +957,7 @@ curl -X 'POST' \
 **Exemplo de Request:**
 ```
 curl -X 'POST' \
-  'https://web-scraping-tawny.vercel.app/api/v1/admin/scraping/trigger' \
+  'https://web-scraping-khaki.vercel.app/api/v1/admin/scraping/trigger' \
   -H 'accept: application/json' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc2MTUyNjEwNn0.L8m2ZjIS99vtCbnQL1RLlP4RRDvG_vFikM-eWnT4Dus' \
   -d ''
@@ -983,7 +983,7 @@ curl -X 'POST' \
 
 **Exemplo de Request:**
 ```
-curl -X 'GET' 'https://web-scraping-tawny.vercel.app/api/v1/ml/features/2' -H 'accept: application/json'
+curl -X 'GET' 'https://web-scraping-khaki.vercel.app/api/v1/ml/features/2' -H 'accept: application/json'
 ```
 
 **Exemplo de Response (trecho):**
@@ -1053,7 +1053,7 @@ curl -X 'GET' 'https://web-scraping-tawny.vercel.app/api/v1/ml/features/2' -H 'a
 
 **Exemplo de Request:**
 ```
-curl -X 'GET' 'https://web-scraping-tawny.vercel.app/api/v1/ml/training-data?limit=2' -H 'accept: application/json'
+curl -X 'GET' 'https://web-scraping-khaki.vercel.app/api/v1/ml/training-data?limit=2' -H 'accept: application/json'
 ```
 
 **Exemplo de Response (trecho):**
